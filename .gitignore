@@ -1,0 +1,94 @@
+# ========================================
+# Database Files
+# ========================================
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sqlite3-journal
+*.myd
+*.myi
+*.frm
+*.ibd
+*.ib_logfile*
+*.pgdump
+*.backup
+*.mdf
+*.ldf
+*.ndf
+*.bson
+dump/
+mongodump/
+dump.rdb
+*.aof
+*.sql.gz
+*.sql.bak
+
+# ========================================
+# Environment & Secrets
+# ========================================
+.env
+.env.*
+!.env.example
+*.env
+secrets.*
+credentials.*
+config.local.*
+*.local.json
+*.local.yml
+*.local.yaml
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+
+# ========================================
+# IDE & Editors
+# ========================================
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ========================================
+# OS Files
+# ========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+*~
+*.swp
+*.swo
+
+# ========================================
+# Logs & Temp
+# ========================================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.old
+*.orig
+.cache/
+
+# ========================================
+# Dependencies
+# ========================================
+node_modules/
+vendor/
+__pycache__/
+*.py[cod]
+venv/
+env/
+.venv/
