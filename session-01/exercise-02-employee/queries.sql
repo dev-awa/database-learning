@@ -1,0 +1,1 @@
+SELECT emp_name, email FROM Employee;
